@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+}
+
+.content {
+  display: grid;
+  margin-top: 1em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1em;
+  grid-template-areas: "hotdogShopsList" "map";
+}
+
+.map-container {
+  grid-area: "map";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 100%;
+}
+
+.search-list-container {
+  grid-area: "hotdogShopsList";
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    grid-template-columns: unset;
+    grid-gap: 14px;
+    grid-template-areas: "hotdogShopsList" "map";
+  }
+  .map-container {
+    grid-area: "map";
+    height: 40em;
+    width: 100%;
+  }
+
+  .search-list-container {
+    grid-area: "hotdogShopsList";
+  }
+}
