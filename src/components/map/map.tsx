@@ -6,7 +6,7 @@ import RoomIcon from "@mui/icons-material/Room";
 import ReactDOMServer from "react-dom/server";
 import { PowerUserConext } from "@/providers/UserProvider";
 import styles from "./map.module.css";
-import { HotdogShops } from "@/pages/home/interface";
+import { HotdogShops } from "@/components/hotdogShopsList/interface";
 
 const Map = () => {
   const { selectedHotdogShop, setSelectedHotdogShop } =

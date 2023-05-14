@@ -30,6 +30,4 @@ const Home = () => {
   );
 };
 
-const getStaticProps = () => {};
-
 export default Home;

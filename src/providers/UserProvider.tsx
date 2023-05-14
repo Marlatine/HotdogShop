@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createContext } from "react";
-import { HotdogShops } from "@/pages/home/interface";
+import { HotdogShops } from "@/components/hotdogShopsList/interface";
 
 interface ContextType {
   loggedIn: boolean;

@@ -1,4 +1,4 @@
-import { HotdogShops } from "../home/interface";
+import { HotdogShops } from "../../components/hotdogShopsList/interface";
 
 export const data: HotdogShops[] = [
   {

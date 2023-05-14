@@ -1,4 +1,4 @@
-import { HotdogShops } from "@/pages/home/interface";
+import { HotdogShops } from "@/components/hotdogShopsList/interface";
 import { data } from "../../pages/api/data";
 import React, { useContext, useEffect, useRef, useState } from "react";
 import Image from "next/image";
